@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/scanner"
+        android:contentDescription="Scanner QRCode"
+        android:icon="@drawable/baseline_qr_code_black_24dp"
+        android:title="Scanner"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/addItem"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Add Machine Image"
+        android:contentDescription="Adding some machine image"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/sortByName"
+        android:title="Sort by name"
+        android:contentDescription="Sort Machine Image Item By Name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sortByType"
+        android:title="Sort by type"
+        android:contentDescription="Sort Machine Image Item By Type"
+        app:showAsAction="never"/>
+</menu>
