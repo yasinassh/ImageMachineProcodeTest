@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">ImageMachine</string>
+    <string name="title">Title</string>
+    <string name="type_machine_image">Type Machine Image</string>
+    <string name="scanner_qrcode">Scanner QRCode</string>
+    <string name="scanner">Scanner</string>
+    <string name="add_machine_image">Add Machine Image</string>
+    <string name="adding_some_machine_image">Adding some machine image</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="sort_machine_image_item_by_name">Sort Machine Image Item By Name</string>
+    <string name="sort_by_type">Sort by type</string>
 </resources>
