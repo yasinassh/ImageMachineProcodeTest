@@ -15,6 +15,16 @@
         android:contentDescription="@string/adding_some_machine_image"
         app:showAsAction="always"/>
     <item
+        android:id="@+id/editItem"
+        android:title="Edit Machine"
+        android:contentDescription="Edit Machine Image From Apps"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/deleteItem"
+        android:title="Delete Machine"
+        android:contentDescription="Delete Machine Image From Apps"
+        app:showAsAction="never"/>
+    <item
         android:id="@+id/sortByName"
         android:title="@string/sort_by_name"
         android:contentDescription="@string/sort_machine_image_item_by_name"
